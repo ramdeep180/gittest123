@@ -4,6 +4,6 @@ PIP=$(curl http://169.254.169.254/latest/meta-data/public-ipv4)
 II=$(curl http://169.254.169.254/latest/meta-data/instance-id)
 P=$(curl http://169.254.169.254/latest/meta-data/profile)
 echo "The public host name is $HN"
-echo "$PIP"
+echo "The Public IP for ec2 instance is $PIP"
 echo "$II"
 echo "$P"
